@@ -210,6 +210,7 @@ open class SocketIOClient : NSObject, SocketIOClientSpec, SocketEngineClient, So
         guard status != .connected else {
             DefaultSocketLogger.Logger.log("Tried connecting on an already connected socket",
                                            type: SocketIOClient.logType)
+            handler?()
             return
         }
 
@@ -224,7 +225,10 @@ open class SocketIOClient : NSObject, SocketIOClientSpec, SocketEngineClient, So
         guard timeoutAfter != 0 else { return }
 
         handleQueue.asyncAfter(deadline: DispatchTime.now() + timeoutAfter) {[weak self] in
-            guard let this = self, this.status == .connecting || this.status == .notConnected else { return }
+            guard let this = self, this.status == .connecting || this.status == .notConnected else {
+                handler?()
+                return
+            }
 
             this.status = .disconnected
             this.engine?.disconnect(reason: "Connect timeout")
