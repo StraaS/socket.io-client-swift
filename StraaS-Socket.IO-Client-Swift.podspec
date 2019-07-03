@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.source = {
     :git => "https://github.com/StraaS/socket.io-client-swift",
-    :tag => 'v12.1.3',
+    :tag => 'v12.1.4',
     :submodules => true
   }
   s.pod_target_xcconfig = {
