@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "StraaS-Socket.IO-Client-Swift"
   s.module_name  = "SocketIO"
-  s.version      = "12.1.4"
+  s.version      = "12.1.5"
   s.summary      = "Socket.IO-client for iOS and OS X"
   s.description  = <<-DESC
                    Socket.IO-client for iOS and OS X.
