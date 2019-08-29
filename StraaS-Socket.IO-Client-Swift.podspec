@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "StraaS-Socket.IO-Client-Swift"
   s.module_name  = "StraaSSocketIO"
-  s.version      = "13.0.2"
+  s.version      = "13.0.3"
   s.summary      = "Socket.IO-client for iOS and OS X"
   s.description  = <<-DESC
                    Socket.IO-client for iOS and OS X.
@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
       'SWIFT_VERSION' => '4.0'
   }
   s.source_files  = "Source/SocketIO/**/*.swift", "Source/SocketIO/*.swift"
-  s.dependency "StraaSStarscream", "~> 3.0.7"
+  s.dependency "StraaSStarscream", "~> 3.0.8"
 end
