@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "572EF2371B51F18A00EEBB58"
                BuildableName = "StraaSSocketIO.framework"
-               BlueprintName = "SocketIO"
+               BlueprintName = "StraaSSocketIO"
                ReferencedContainer = "container:Socket.IO-Client-Swift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -58,7 +58,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "572EF2371B51F18A00EEBB58"
             BuildableName = "StraaSSocketIO.framework"
-            BlueprintName = "SocketIO"
+            BlueprintName = "StraaSSocketIO"
             ReferencedContainer = "container:Socket.IO-Client-Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -80,7 +80,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "572EF2371B51F18A00EEBB58"
             BuildableName = "StraaSSocketIO.framework"
-            BlueprintName = "SocketIO"
+            BlueprintName = "StraaSSocketIO"
             ReferencedContainer = "container:Socket.IO-Client-Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -98,7 +98,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "572EF2371B51F18A00EEBB58"
             BuildableName = "StraaSSocketIO.framework"
-            BlueprintName = "SocketIO"
+            BlueprintName = "StraaSSocketIO"
             ReferencedContainer = "container:Socket.IO-Client-Swift.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

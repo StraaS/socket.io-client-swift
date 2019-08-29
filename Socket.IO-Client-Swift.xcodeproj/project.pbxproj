@@ -347,9 +347,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		572EF2371B51F18A00EEBB58 /* SocketIO */ = {
+		572EF2371B51F18A00EEBB58 /* StraaSSocketIO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 572EF24B1B51F18A00EEBB58 /* Build configuration list for PBXNativeTarget "SocketIO" */;
+			buildConfigurationList = 572EF24B1B51F18A00EEBB58 /* Build configuration list for PBXNativeTarget "StraaSSocketIO" */;
 			buildPhases = (
 				572EF2331B51F18A00EEBB58 /* Sources */,
 				572EF2341B51F18A00EEBB58 /* Frameworks */,
@@ -360,7 +360,7 @@
 			);
 			dependencies = (
 			);
-			name = SocketIO;
+			name = StraaSSocketIO;
 			productName = "SocketIO-Mac";
 			productReference = 572EF2381B51F18A00EEBB58 /* StraaSSocketIO.framework */;
 			productType = "com.apple.product-type.framework";
@@ -417,7 +417,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				572EF2371B51F18A00EEBB58 /* SocketIO */,
+				572EF2371B51F18A00EEBB58 /* StraaSSocketIO */,
 				572EF2411B51F18A00EEBB58 /* SocketIO-Tests */,
 			);
 		};
@@ -510,7 +510,7 @@
 /* Begin PBXTargetDependency section */
 		572EF2451B51F18A00EEBB58 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 572EF2371B51F18A00EEBB58 /* SocketIO */;
+			target = 572EF2371B51F18A00EEBB58 /* StraaSSocketIO */;
 			targetProxy = 572EF2441B51F18A00EEBB58 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -964,7 +964,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		572EF24B1B51F18A00EEBB58 /* Build configuration list for PBXNativeTarget "SocketIO" */ = {
+		572EF24B1B51F18A00EEBB58 /* Build configuration list for PBXNativeTarget "StraaSSocketIO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				572EF24C1B51F18A00EEBB58 /* Debug */,
