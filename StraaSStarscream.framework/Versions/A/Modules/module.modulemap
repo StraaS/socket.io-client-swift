@@ -1,0 +1,4 @@
+framework module StraaSStarscream {
+  header "StraaSStarscream-Swift.h"
+  requires objc
+}

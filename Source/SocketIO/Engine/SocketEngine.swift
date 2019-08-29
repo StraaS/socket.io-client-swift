@@ -135,7 +135,7 @@ public final class SocketEngine : NSObject, URLSessionDelegate, SocketEnginePoll
     private var pongsMissedMax = 0
     private var probeWait = ProbeWaitQueue()
     private var secure = false
-    private var security: SocketIO.SSLSecurity?
+    private var security: StraaSSocketIO.SSLSecurity?
     private var selfSigned = false
 
     // MARK: Initializers

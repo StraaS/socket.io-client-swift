@@ -17,7 +17,7 @@
 		1C686BE71F869AFD007D8627 /* SocketParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C686BD71F869AF1007D8627 /* SocketParserTest.swift */; };
 		1C686BE81F869AFD007D8627 /* SocketNamespacePacketTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C686BD81F869AF1007D8627 /* SocketNamespacePacketTest.swift */; };
 		1C686C001F869EAE007D8627 /* SocketObjectiveCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C686BFE1F869E9D007D8627 /* SocketObjectiveCTest.m */; };
-		572EF2431B51F18A00EEBB58 /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572EF2381B51F18A00EEBB58 /* SocketIO.framework */; };
+		572EF2431B51F18A00EEBB58 /* StraaSSocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572EF2381B51F18A00EEBB58 /* StraaSSocketIO.framework */; };
 		6CA08A981D615C0B0061FD2A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA08A971D615C0B0061FD2A /* Security.framework */; };
 		74BF53581F894326004972D8 /* SocketIO.h in Headers */ = {isa = PBXBuildFile; fileRef = 572EF23C1B51F18A00EEBB58 /* SocketIO.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		74D0F5961F8053950037C4DC /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9432E00B1F77F883006AF628 /* Starscream.framework */; };
@@ -47,6 +47,7 @@
 		DD52BF924BEF05E1235CFD29 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52BA1F41F2E4B3DC20260E /* SocketIOClient.swift */; };
 		DD52BFBC9E7CC32D3515AC80 /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52B645273A873667BC2D43 /* SocketEngineSpec.swift */; };
 		DD52BFEB4DBD3BF8D93DAEFF /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD52B6DCCBBAC6BE9C22568D /* SocketEventHandler.swift */; };
+		FF2F454F2317AD7400084E83 /* StraaSStarscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2F454E2317AD7400084E83 /* StraaSStarscream.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +71,7 @@
 		1C686BD71F869AF1007D8627 /* SocketParserTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketParserTest.swift; sourceTree = "<group>"; };
 		1C686BD81F869AF1007D8627 /* SocketNamespacePacketTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketNamespacePacketTest.swift; sourceTree = "<group>"; };
 		1C686BFE1F869E9D007D8627 /* SocketObjectiveCTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketObjectiveCTest.m; sourceTree = "<group>"; };
-		572EF2381B51F18A00EEBB58 /* SocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		572EF2381B51F18A00EEBB58 /* StraaSSocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StraaSSocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		572EF23B1B51F18A00EEBB58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		572EF23C1B51F18A00EEBB58 /* SocketIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketIO.h; sourceTree = "<group>"; };
 		572EF2421B51F18A00EEBB58 /* SocketIO-Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SocketIO-Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +112,7 @@
 		DD52BE9AD8B2BD7F841CD1D4 /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineWebsocket.swift; sourceTree = "<group>"; };
 		DD52BED81BF312B0E90E92AC /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
 		DD52BFF2E3216CDC364BB8AF /* SocketAckEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckEmitter.swift; sourceTree = "<group>"; };
+		FF2F454E2317AD7400084E83 /* StraaSStarscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StraaSStarscream.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74DA21741F09440F009C19EE /* libz.tbd in Frameworks */,
+				FF2F454F2317AD7400084E83 /* StraaSStarscream.framework in Frameworks */,
 				6CA08A981D615C0B0061FD2A /* Security.framework in Frameworks */,
 				74D0F5961F8053950037C4DC /* Starscream.framework in Frameworks */,
 			);
@@ -129,7 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74DA217C1F09457B009C19EE /* libz.tbd in Frameworks */,
-				572EF2431B51F18A00EEBB58 /* SocketIO.framework in Frameworks */,
+				572EF2431B51F18A00EEBB58 /* StraaSSocketIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +192,7 @@
 		572EF21A1B51F16C00EEBB58 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				572EF2381B51F18A00EEBB58 /* SocketIO.framework */,
+				572EF2381B51F18A00EEBB58 /* StraaSSocketIO.framework */,
 				572EF2421B51F18A00EEBB58 /* SocketIO-Tests.xctest */,
 			);
 			name = Products;
@@ -231,6 +234,7 @@
 				749FA1A11F811408002FBB30 /* Foundation.framework */,
 				749FA19F1F8112E7002FBB30 /* Starscream.framework.dSYM */,
 				74D0F58D1F804FED0037C4DC /* libz.tbd */,
+				FF2F454E2317AD7400084E83 /* StraaSStarscream.framework */,
 				9432E0091F77F87D006AF628 /* Starscream.framework */,
 				9432E00B1F77F883006AF628 /* Starscream.framework */,
 				9432E00D1F77F889006AF628 /* Starscream.framework */,
@@ -358,7 +362,7 @@
 			);
 			name = SocketIO;
 			productName = "SocketIO-Mac";
-			productReference = 572EF2381B51F18A00EEBB58 /* SocketIO.framework */;
+			productReference = 572EF2381B51F18A00EEBB58 /* StraaSSocketIO.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		572EF2411B51F18A00EEBB58 /* SocketIO-Tests */ = {
@@ -405,6 +409,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 572EF20D1B51F12F00EEBB58;
@@ -573,7 +578,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = SocketIO;
+				PRODUCT_NAME = StraaSSocketIO;
 				SUPPORTED_PLATFORMS = "macosx appletvsimulator appletvos iphonesimulator iphoneos watchos watchsimulator";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -642,7 +647,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_NAME = SocketIO;
+				PRODUCT_NAME = StraaSSocketIO;
 				SUPPORTED_PLATFORMS = "macosx appletvsimulator appletvos iphonesimulator iphoneos watchos watchsimulator";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
@@ -681,7 +686,10 @@
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -706,6 +714,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.socket.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = StraaSSocketIO;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "$(inherited)";
@@ -751,7 +760,10 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -769,6 +781,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "io.socket.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = StraaSSocketIO;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "$(inherited)";
