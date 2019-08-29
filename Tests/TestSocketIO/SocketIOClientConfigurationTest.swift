@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import SocketIO
+import StraaSSocketIO
 
 class TestSocketIOClientConfiguration : XCTestCase {
     func testReplaceSameOption() {

@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import SocketIO
+@testable import StraaSSocketIO
 import StraaSStarscream
 
 class SocketSideEffectTest: XCTestCase {

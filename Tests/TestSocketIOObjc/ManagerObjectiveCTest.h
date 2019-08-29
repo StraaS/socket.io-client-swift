@@ -5,7 +5,7 @@
 #import "SocketIO_Tests-Swift.h"
 
 @import XCTest;
-@import SocketIO;
+@import StraaSSocketIO;
 
 @interface ManagerObjectiveCTest : XCTestCase
 

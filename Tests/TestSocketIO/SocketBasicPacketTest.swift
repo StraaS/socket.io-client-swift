@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import SocketIO
+@testable import StraaSSocketIO
 
 class SocketBasicPacketTest: XCTestCase {
     let data = "test".data(using: String.Encoding.utf8)!

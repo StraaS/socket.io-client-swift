@@ -12,7 +12,7 @@
 @import Dispatch;
 @import Foundation;
 @import XCTest;
-@import SocketIO;
+@import StraaSSocketIO;
 
 // TODO Manager interface tests
 

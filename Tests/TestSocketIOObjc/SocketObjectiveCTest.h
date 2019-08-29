@@ -6,7 +6,7 @@
 @import Dispatch;
 @import Foundation;
 @import XCTest;
-@import SocketIO;
+@import StraaSSocketIO;
 
 @interface SocketObjectiveCTest : XCTestCase
 

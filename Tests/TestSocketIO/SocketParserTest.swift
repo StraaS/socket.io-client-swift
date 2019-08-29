@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import SocketIO
+@testable import StraaSSocketIO
 
 class SocketParserTest: XCTestCase {
     func testDisconnect() {

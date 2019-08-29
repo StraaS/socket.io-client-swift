@@ -4,7 +4,7 @@
 
 import Dispatch
 import Foundation
-@testable import SocketIO
+@testable import StraaSSocketIO
 import XCTest
 
 class SocketMangerTest : XCTestCase {
