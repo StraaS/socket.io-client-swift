@@ -24,7 +24,7 @@
 //
 
 import Foundation
-import Starscream
+import StraaSStarscream
 
 /// Protocol that is used to implement socket.io WebSocket support
 public protocol SocketEngineWebsocket : SocketEngineSpec, WebSocketDelegate {
@@ -65,7 +65,7 @@ extension SocketEngineWebsocket {
         }
     }
 
-    // MARK: Starscream delegate methods
+    // MARK: StraaSStarscream delegate methods
 
     /// Delegate method for when a message is received.
     public func websocketDidReceiveMessage(socket: WebSocketClient, text: String) {

@@ -24,7 +24,7 @@
 
 import Dispatch
 import Foundation
-import Starscream
+import StraaSStarscream
 
 /// The class that handles the engine.io protocol and transports.
 /// See `SocketEnginePollable` and `SocketEngineWebsocket` for transport specific methods.
@@ -618,7 +618,7 @@ public final class SocketEngine : NSObject, URLSessionDelegate, SocketEnginePoll
         }
     }
 
-    // MARK: Starscream delegate conformance
+    // MARK: StraaSStarscream delegate conformance
 
     /// Delegate method for connection.
     public func websocketDidConnect(socket: WebSocketClient) {

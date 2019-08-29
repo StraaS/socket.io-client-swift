@@ -24,7 +24,7 @@
 //
 
 import Foundation
-import Starscream
+import StraaSStarscream
 
 /// Specifies a SocketEngine.
 @objc public protocol SocketEngineSpec {
